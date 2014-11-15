@@ -1,5 +1,30 @@
 #game-board img {
     width: 150px;
     height: 150px;
-    margin-right:5px;
+    margin-left:5px;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
+#cool {
+	margin-left: 250px;
+}
+.container-fluid{
+	background-image: url(../wood.jpg);
+	opacity: 0.8;
+}
+
+#elapsed-seconds, #total, #match, #miss,#congrat{
+	font-size: 36px;
+}
+
+#howToPlay,#restart{
+	font-size: 26px;
+}
+body {
+	color: black;
+}
+
+#title {
+	margin-left: 550px;
+}
+
