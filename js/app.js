@@ -13,7 +13,7 @@ $(document).ready(function(){
     var startTime = _.now();
     var timer = window.setInterval(timeCount, 1000);
     console.log(tiles);
-    backTiles();
+    //backTiles();
     $('#restart').click(playAgain);
 
     function backTiles() {
